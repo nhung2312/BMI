@@ -3,7 +3,7 @@ import 'package:buoi2/hexint.dart';
 
 Color primary = Color.fromRGBO(28, 40, 51, 0.8);
 Color secondary = Colors.black;
-Color primaryButtonColor =   Colors.orangeAccent; //HexColor("e74c3c");
+Color primaryButtonColor =   Colors.blue;
 Color secondaryButtonColor = HexColor("212f3c");
 
 TextStyle headlines = TextStyle(letterSpacing: 2.0,fontSize: 15, color: HexColor("d3d3d3"));

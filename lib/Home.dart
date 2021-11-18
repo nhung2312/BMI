@@ -121,7 +121,7 @@ class _BmiPageState extends State<BmiPage> {
                       value: height.toDouble(),
                       min: minHeight,
                       max: maxHeight,
-                      activeColor: Colors.orangeAccent,
+                      activeColor: Colors.blue,
                       inactiveColor: Colors.black,
                       onChanged: ( double newValue) {
                         setState(() {
@@ -167,7 +167,7 @@ class _BmiPageState extends State<BmiPage> {
                               margin: EdgeInsets.all(10.0),
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(20.0),
-                                  color: Colors.orangeAccent
+                                  color: Colors.blue
                               ),
                               child: Center(
                                 child: Text("-", style: secondaryButtonColorStyle,),
@@ -180,7 +180,7 @@ class _BmiPageState extends State<BmiPage> {
                             margin: EdgeInsets.all(10.0),
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.orangeAccent
+                                color: Colors.blue
                             ),
                             child: InkWell(
                               onTap: weightIncrement,
@@ -223,7 +223,7 @@ class _BmiPageState extends State<BmiPage> {
                               margin: EdgeInsets.all(10.0),
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(20.0),
-                                  color: Colors.orangeAccent
+                                  color: Colors.blue
                               ),
                               child: Center(
                                 child: Text("-", style: secondaryButtonColorStyle,),
@@ -236,7 +236,7 @@ class _BmiPageState extends State<BmiPage> {
                             margin: EdgeInsets.all(10.0),
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.orangeAccent
+                                color: Colors.blue
                             ),
                             child: InkWell(
                               onTap: ageIncrement,
